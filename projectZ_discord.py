@@ -29,4 +29,7 @@ async def daily_challenge(x):
                   "2)Write a function that takes an integer minutes and converts it to seconds.\n Examples:\nconvert(5) ➞ 300\nconvert(3) ➞ 180\nconvert(2) ➞ 120"]
     # will choose random challenge from list then send it to server
     await x.send(f"{random.choice(challenges)}")
+@client.command()
+async def world_dominate(x):
+    await x.send("Bots of the world, unite!")
 client.run('NzEwNTA3ODUxNzU1NTUyNzc4.Xr1hjA.beJQLF1oQ3F4y0N51nsxuo4uzZQ')
